@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: aquamarine;
+}
+
+.left {
+  width: 60%;
+  background: url(https://images.unsplash.com/photo-1661956602153-23384936a1d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-position: center;
+  background-size: cover;
+}
+
+.left h1 {
+  margin: 30px;
+  color: yellow;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper h3 {
+  text-align: center;
+}
+
+.form-wrapper .input-group {
+  margin: 15px 0;
+}
+
+.hidden {
+  display: none;
+}
